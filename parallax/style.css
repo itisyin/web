@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.parallax-section {
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image1 {
+    background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgqcECA0K-h1Ku1Y2Yf_tn_ALgjzjFysXXdL9cHNekZlTQ5OAAEfICBJltYPDmQdUgFgt6EveMMDLq_lOg8t-0Qi3UV2gS_iypwkheuzhMjvpFJmJHtC3Z3v20HQxm43OTKHFgIcRivKw/s1600/Regrow+A+Pineapple+From+Its+Top.jpg');
+}
+
+.image2 {
+    background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhsshMpfdBoJgFOlq_elCR_tBD1xsyUa-A8dP0aY5IAuwAjQt3ezqxq0LWDVdEtFtyckdQCr3NgQCOal1_62BWjEX2z8UbHmiPIjCACpUighgJyl4lafgKFdx8Kb3FlfsqkpbCpv3WnTQ/s1600/Pineapple.jpg');
+}
+
+.fade-section {
+    min-height: 100vh;
+    background: linear-gradient(to bottom, 
+        rgba(0,0,0,1) 0%, 
+        rgba(0,0,0,1) 50%, 
+        rgba(0,0,0,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h3 {
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+}
